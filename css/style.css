@@ -1,0 +1,47 @@
+/* .headline {
+
+}
+html {
+  font-size: 10px;
+}
+
+.navbar {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	font: 400 1.6rem 'Rajdhani', sans-serif;
+	text-transform: uppercase;
+	color: #fff;
+	text-align: left;
+	overflow: hidden;
+	opacity: 1;
+	z-index: 999;
+}
+
+.navbar a {
+  color: black;
+	display: inline-block;
+	margin: 0 10px;
+}
+
+.navbar-inner {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+}
+
+.navbar li {
+    float: left;
+}
+
+.navbar ul {
+    position: relative;
+    margin: 0;
+    padding: 0;
+    float: right;
+}
+
+.subhead {
+  	font: 300 1.2rem 'Dosis', sans-serif;
+}
+*/
