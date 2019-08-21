@@ -7,6 +7,15 @@ a:link, a:visited {
   background-color: #424C5B;
 }
 
+.aboutme {
+  height: 100%;
+  width: 100%;
+}
+
+.addrecipe {
+  width: 100%;
+}
+
 b {
   font-weight: 700;
 }
@@ -17,8 +26,16 @@ b {
   font-size: 1.8rem;
   font-weight: 300;
   line-height: 3.5rem;
-  margin: 7% 7%;
-  padding-bottom: 5%;
+  margin: 7% 7% 0 7%;
+}
+
+.bio p {
+  margin-bottom: 5%;
+}
+
+.bio p:nth-child(4) {
+  margin-top: 8rem;
+  margin-bottom: 10%;
 }
 
 .btn {
@@ -84,6 +101,19 @@ b {
   font-weight: 400;
   padding: 0% 0% 5% 0%;
   text-transform: uppercase;
+}
+
+.colorbar {
+  padding: 1rem 0;
+  width: 100%;
+}
+
+.colorbarstack {
+  display: none;
+}
+
+.competitiveanalysis {
+  width: 100%;
 }
 
 .desc-role {
@@ -172,87 +202,6 @@ html {
   font-size: 10px;
 }
 
-img[alt="aboutme"] {
-  height: 100%;
-  width: 100%;
-}
-
-img[alt="addrecipe"] {
-  width: 100%;
-}
-
-img[alt="colorbar"] {
-  padding: 1rem 0;
-  width: 100%;
-}
-
-img[alt="colorbarstack"] {
-  display: none;
-}
-
-img[alt="competitiveanalysis"] {
-  width: 100%;
-}
-
-img[alt="landing"] {
-  height: auto;
-  padding-right: 10%;
-  width: 40%;
-}
-
-img[alt="linkedin"] {
-  vertical-align: middle;
-}
-
-img[alt="linkout"] {
-  padding: 1rem 1rem;
-  vertical-align: middle;
-}
-
-img[alt="navbar"] {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 70%;
-}
-
-img[alt="onboard"] {
-  width: 100%;
-}
-
-img[alt="recipe"] {
-  height: auto;
-  padding-right: 10%;
-  width: 40%;
-}
-
-img[alt="recipepod"] {
-  width: 22rem;
-}
-
-img[alt="recipepodlogo"] {
-  width: 100%;
-}
-
-img[alt="starkness"] {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 70%;
-}
-
-img[alt="typography"] {
-  width: 100%;
-}
-
-img[alt="userflows"] {
-  width: 100%;
-}
-
-img[alt="userflowsstack"] {
-  display: none;
-}
-
 .img-center {
   position: relative;
   text-align: center;
@@ -273,8 +222,23 @@ img[alt="userflowsstack"] {
   width: 100%;
 }
 
+.landing {
+  height: auto;
+  padding-right: 10%;
+  width: 40%;
+}
+
 li {
   display: inline-block;
+}
+
+.linkedin {
+  vertical-align: middle;
+}
+
+.linkout {
+  padding: 1rem 1rem;
+  vertical-align: middle;
 }
 
 .logo-link {
@@ -320,6 +284,13 @@ li {
 .navbar {
   height: 10.5rem;
   width: 100%;
+}
+
+.navbarsimp {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
 }
 
 .nav-hover li {
@@ -386,6 +357,10 @@ li {
   width: 33.33%;
 }
 
+.onboard {
+  width: 100%;
+}
+
 .portrait img {
   object-fit: cover;
 }
@@ -409,8 +384,23 @@ li {
   width: 100%;
 }
 
+.recipe {
+  height: auto;
+  padding-right: 10%;
+  width: 40%;
+}
+
+.recipepod {
+  height: auto;
+  width: 22rem;
+}
+
 #recipepod {
   background-color: #33B44A;
+}
+
+.recipepodlogo {
+  width: 100%;
 }
 
 #remotely {
@@ -462,6 +452,13 @@ li {
   font-weight: 300;
 }
 
+.starkness {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+}
+
 .threecolumn {
   display: inline-grid;
   grid-auto-flow: column;
@@ -498,14 +495,26 @@ li {
   padding: 47% 0;
 }
 
+.typography {
+  width: 100%;
+}
+
 ul {
   text-align: center;
   width: 100%;
 }
 
+.userflows {
+  width: 100%;
+}
+
+.userflowsstack {
+  display: none;
+}
+
 @media only screen and (max-width: 414px)  {
   .bio {
-    order: 2;
+    order: 1;
     padding: 2rem 0rem 5rem 0rem;
   }
 
@@ -525,12 +534,26 @@ ul {
     padding: 1.5rem 5rem;
   }
 
+  .colorbar {
+    display: none;
+  }
+
+  .colorbarstack {
+    display: inline-block;
+    width: 100%;
+  }
+
   .desc-role {
     display: none;
   }
 
   #footer {
     height: 18rem;
+  }
+
+  .foxsports {
+    height: auto;
+    width: 19rem;
   }
 
   h2 {
@@ -584,76 +607,18 @@ ul {
     font-size: 3.6rem;
   }
 
-  img[alt="colorbar"] {
-    display: none;
-  }
-
-  img[alt="colorbarstack"] {
+  .item-inner {
     display: inline-block;
-    width: 100%;
   }
 
-  img[alt="foxsports"] {
-    width: 19rem;
-  }
-
-  img[alt="landing"] {
+  .landing {
     padding-right: 2rem;
     padding-bottom: 3rem;
   }
 
-  img[alt="linkout"] {
+  .linkout {
     height: 2.5rem;
     width: 2.5rem;
-  }
-
-  img[alt="navbar"] {
-    width: 100%;
-  }
-
-  img[alt="next"] {
-    height: 3.5rem;
-    width: 3.5rem;
-  }
-
-  img[alt="previous"] {
-    height: 3.5rem;
-    width: 3.5rem;
-  }
-
-  img[alt="recipe"] {
-    padding-bottom: 3rem;
-    padding-right: 0;
-  }
-
-  img[alt="recipepod"] {
-    width: 18rem;
-  }
-
-  img[alt="remotely"] {
-    width: 11rem;
-  }
-
-  img[alt="starkness"] {
-    width: 100%;
-  }
-
-  img[alt="top"] {
-    height: 3.5rem;
-    width: 3.5rem;
-  }
-
-  img[alt="userflows"] {
-    display: none;
-  }
-
-  img[alt="userflowsstack"] {
-    display: inline-block;
-    width: 100%;
-  }
-
-  .item-inner {
-    display: inline-block;
   }
 
   .logo-link {
@@ -675,6 +640,10 @@ ul {
     display: block;
   }
 
+  .navbarsimp {
+    width: 100%;
+  }
+
   #nav-logo {
     height: 7rem;
     padding: 2rem 1rem 2rem 1rem;
@@ -691,6 +660,11 @@ ul {
     font-size: 2.4rem;
     padding-right: 0;
     padding-top: 2.4rem;
+  }
+
+  .next {
+    height: 3.5rem;
+    width: 3.5rem;
   }
 
   .off {
@@ -717,10 +691,15 @@ ul {
   }
 
   .portrait {
-    order: 1;
+    order: 2;
     max-height: 37rem;
     width: 100%;
     overflow: hidden;
+  }
+
+  .previous {
+    height: 3.5rem;
+    width: 3.5rem;
   }
 
   .productdesc {
@@ -731,6 +710,20 @@ ul {
   #protobtn {
     padding-bottom: 17%;
     padding-top: 10%;
+  }
+
+  .recipe {
+    padding-bottom: 3rem;
+    padding-right: 0;
+  }
+
+  .recipepod {
+    width: 18rem;
+  }
+
+  .remotely {
+    height: auto;
+    width: 11rem;
   }
 
   .reorder {
@@ -751,12 +744,21 @@ ul {
     font-size: 1.6rem;
   }
 
+  .starkness {
+    width: 100%;
+  }
+
   .threecolumn {
     display: inline-block;
   }
 
   .threecolumn div {
     margin: 0;
+  }
+
+  .top {
+    height: 3.5rem;
+    width: 3.5rem;
   }
 
   .twocolumn {
@@ -774,11 +776,20 @@ ul {
   .type {
     display: none;
   }
+
+  .userflows {
+    display: none;
+  }
+
+  .userflowsstack {
+    display: inline-block;
+    width: 100%;
+  }
 }
 
 @media only screen and (min-width: 415px) and (max-width: 1024px)  {
   .bio {
-    order: 2;
+    order: 1;
     padding: 0rem 0rem 3rem 0rem;
   }
 
@@ -820,17 +831,11 @@ ul {
     padding-top: 13rem;
   }
 
-  img[alt="landing"] {
+  .landing {
     height: 35rem;
     padding-bottom: 1rem;
     padding-left: 2rem;
     padding-right: 2rem;
-  }
-
-  img[alt="recipe"] {
-    height: 35rem;
-    padding-right: 2rem;
-    padding-bottom: 1rem;
   }
 
   .mobile-logo {
@@ -888,14 +893,20 @@ ul {
   }
 
   .portrait {
-    order: 1;
-    max-height: 75rem;
+    max-height: 100rem;
+    order: 2;
     width: 100%;
     overflow: hidden;
   }
 
   .productdesc {
     font-size: 1.8rem;
+  }
+
+  .recipe {
+    height: 35rem;
+    padding-right: 2rem;
+    padding-bottom: 1rem;
   }
 
   .reorder {
