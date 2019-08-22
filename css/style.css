@@ -112,6 +112,23 @@ b {
   display: none;
 }
 
+.comingfox {
+  background-color: #0F2D53;
+  display: flex;
+}
+
+.comingremotely {
+  background-color: #4E52F5;
+  display: flex;
+}
+
+.comingsoon {
+  line-height: 5rem;
+  margin: auto;
+  text-align: center;
+  width: 100%;
+}
+
 .competitiveanalysis {
   width: 100%;
 }
