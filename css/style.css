@@ -39,7 +39,7 @@ b {
 }
 
 .btn {
-  background-color: transparency;
+  background-color: transparent;
   border: .2rem solid white;
   color: white;
   font-family: 'Dosis';
@@ -116,6 +116,10 @@ b {
   width: 100%;
 }
 
+.contactpage {
+  min-height: 100vh;
+}
+
 .desc-role {
   margin-right: 5rem;
   padding: 47% 0;
@@ -124,6 +128,32 @@ b {
 #footer {
   line-height: 10.5rem;
   height: 10.5rem;
+}
+
+form {
+  margin: auto;
+  width: 85%;
+}
+
+form input {
+  margin-bottom: 0.5rem;
+}
+
+form textarea {
+  height: 8rem;
+  margin-bottom: 2rem;
+}
+
+.form {
+  background-color: #424C5B;
+  display: block;
+  height: calc(100vh - 21rem);
+}
+
+.formcenter {
+  display: flex;
+  height: 100%;
+  width: 100%;
 }
 
 #foxsports {
@@ -213,6 +243,17 @@ html {
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
+}
+
+input, textarea {
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 1.6rem;
+    color: #303030;
+    border: 1px solid transparent;
+    background: #fff;
+    padding: 1rem;
+    transition: all 0.3s ease-in-out;
+    width: calc(100% - 2.2rem);
 }
 
 .item-inner {
@@ -512,6 +553,23 @@ ul {
   display: none;
 }
 
+@media only screen and (max-width: 374px)  {
+  form .btn {
+    font-size: 1.4rem;
+    padding: 1rem 5rem;
+  }
+
+  form textarea {
+    height: 4rem;
+    margin-bottom: 1rem;
+  }
+
+  input, textarea {
+      font-size: 1.2rem;
+      padding: .5rem;
+  }
+}
+
 @media only screen and (max-width: 414px)  {
   .bio {
     order: 1;
@@ -551,6 +609,11 @@ ul {
     height: 18rem;
   }
 
+  .form {
+    display: block;
+    height: calc(100vh - 35.7rem);
+  }
+
   .foxsports {
     height: auto;
     width: 19rem;
@@ -570,7 +633,7 @@ ul {
   }
 
   .hero-content {
-    padding: 10rem 0 0 0;
+    padding: 3rem 0 0 0;
     text-align: center;
   }
 
@@ -630,6 +693,10 @@ ul {
     font-size: 2.4rem;
   }
 
+  .navbar {
+    height: 17.7rem;
+  }
+
   .navbar-inner .nav-hover li {
     font-size: 1.6rem;
     height: 6.7rem;
@@ -681,6 +748,7 @@ ul {
     line-height: 3rem;
     position: relative;
     top: 2.5rem;
+    width: 50%;
   }
 
   .one-third li {
@@ -804,6 +872,10 @@ ul {
 
   #footer {
     height: 8rem;
+  }
+
+  .form {
+    height: calc(100vh - 16rem);
   }
 
   h1 {
