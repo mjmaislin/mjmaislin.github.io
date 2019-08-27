@@ -291,7 +291,9 @@ li {
 }
 
 .linkedin {
+  height: auto;
   vertical-align: middle;
+  width: 8%;
 }
 
 .linkout {
