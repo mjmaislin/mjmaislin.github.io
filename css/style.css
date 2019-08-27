@@ -49,6 +49,11 @@ b {
   text-transform: uppercase;
 }
 
+.btn:hover {
+  background-color: rgba(0, 0, 0, 0.15);
+  cursor: pointer;
+}
+
 .case-bg1 {
   background-color: #424C5B;
 }
