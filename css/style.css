@@ -851,8 +851,21 @@ ul {
     display: inline-block;
   }
 
+  .hero-image-fox {
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 10%;
+    padding-top: 10%;
+    width: 50%;
+  }
+
   .hero-inner {
     display: block;
+  }
+
+  .herofox {
+    background-color: #0F2D53;
+    background-image: none;
   }
 
   .img-center h3 {
