@@ -183,9 +183,8 @@ form textarea {
 }
 
 .fs {
-  height: auto;
   padding-bottom: 2%;
-  width: 70%;
+  width: 100%;
 }
 
 h1 {
@@ -248,6 +247,12 @@ h4 {
   display: none;
 }
 
+.hero-image-fox {
+  margin-top: auto;
+  margin-bottom: auto;
+  width: 70%;
+}
+
 .hero-inner {
   display: inline-grid;
   grid-auto-flow: column;
@@ -257,7 +262,7 @@ h4 {
 
 .herofox {
   background-color: #0F2D53;
-  background-image: -webkit-linear-gradient(75deg, #FFF 30%, #0F2D53 30%);
+  background-image: -webkit-linear-gradient(65deg, #FFF 30%, #0F2D53 30%);
   background-size: cover;
 }
 
@@ -856,6 +861,12 @@ ul {
 
   .item-inner {
     display: inline-block;
+  }
+
+  .inspiration {
+    display: block;
+    float: none;
+    width: 100%;
   }
 
   .landing {
